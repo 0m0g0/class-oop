@@ -16,9 +16,9 @@ class Rectangle:
 
 
 rectangle1 = Rectangle(height=5, width=6)
-print(f"{rectangle1.area():.2f}")  # 30.00
-print(f"{rectangle1.diagonal():.2f}")  # 7.81
+print(rectangle1.area())  # 30.00
+print(rectangle1.diagonal())  # 7.81
 
 rectangle2 = Rectangle(height=3, width=3)
-print(f"{rectangle2.area():.2f}")  # 9.00
-print(f"{rectangle2.diagonal():.2f}")  # 4.24
+print(rectangle2.area())  # 9.00
+print(rectangle2.diagonal())  # 4.24
