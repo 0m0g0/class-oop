@@ -7,13 +7,12 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        # 面積 = 縦 × 横（小数第2位まで）
-        return round(self.height * self.width, 2)
+        area = self.height * self.width
+        return round(area, 2)
 
     def diagonal(self):
-        # 対角線 = √(縦² + 横²)（小数第2位まで）
-        return round(math.sqrt(self.height**2 + self.width**2), 2)
-
+        diagonal = math.sqrt(self.height**2 + self.width**2)
+        return round(diagonal, 2)
 
 rectangle1 = Rectangle(height=5, width=6)
 print(rectangle1.area())  # 30.00
